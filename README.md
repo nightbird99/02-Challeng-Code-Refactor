@@ -1,9 +1,9 @@
 # 02-Challeng-Code-Refactor
 
-add alt information to all images and icons in index.html
+Horiseon Information Webpage
 
-replaced div tags with semantic tags in index.html
+Deploy Link: https://nightbird99.github.io/02-Challenge-Code-Refactor/
 
-updates style rules to fit with semantic tags, combined repeated rules using semantic tags
-
-added comments to style.css
+Screenshots:
+(./screenshot/02challengescreenshot2)
+(./screenshot/02challengescreenshot2)
