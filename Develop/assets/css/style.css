@@ -1,3 +1,4 @@
+/* Universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,52 +6,52 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* sets background color of body portion of page */
 }
 
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+header { /* sets size and color of header bar at top of page as well as font and font color  */
+    padding: 20px; /* sets size of header bar at top of page */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* sets font of header */
+    background-color: #2a607c; /* sets color of header bar at top of page */
+    color: #ffffff; /* sets font color of the header */
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
+header h1 { /* sets top login in block form and sets font size */
+    display: inline-block; /* sets header to display as a block */
+    font-size: 48px; /* sets size of header font */
 }
 
-header h1 .seo {
+header h1 .seo { /* changes part of company name in header to different font color */
     color: #d9dcd6;
 }
 
-header nav {
+header nav { /* sets style rules for the navigation bar at top of page */
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
+    float: right; /* shift the elements of the nav bar to align on the right */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-header nav ul {
+header nav ul { /* sets list style type for list of navigation bar items */
     list-style-type: none;
 }
 
-header nav ul li {
+header nav ul li { /* sets style for individual items of nav bar */
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 25px; /* sets margin between nav bar list items and element directly to the left */
 }
 
-a {
+a { /* sets style rules for linked nav bar */
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+p { /* sets font size of paragraph text displayed throughout the page */
     font-size: 16px;
 }
 
-.hero {
+.hero { /* sets size, margin, image, and position of main image in middle of page */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,23 +60,17 @@ p {
     background-position: center;
 }
 
-.float-left {
+.float-left { /* shifts two of the images in the main section of the page to the left of the text */
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right { /* shift the remaining image in the main section of the page to the right of the text */
     float: right;
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-aside {
+aside { /* sets style rules for the side "benefits" panel of the page */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,48 +81,54 @@ aside {
     background-color: #2589bd;
 }
 
-aside section {
-    margin-bottom: 32px;
+aside section { 
+    margin-bottom: 32px; /* sets margin space between sections of the aside portion of the screen and the elements directly under them */
     color: #ffffff;
 }
 
 
-aside h3 {
+aside h3 { 
     margin-bottom: 10px;
     text-align: center;
 }
 
-aside img {
+aside img { /* sets style of the icons found in the side "benefits" portion of the page */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+main { /* sets style rules for the main portion of the page */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
-main section img {
+main section { /* sets style rules for the three sections in the main portion of the page */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px; /* sets size of sections */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* sets font of text in sections */
+    background-color: #0072bb; /* sets background color of sections */
+    color: #ffffff; /* sets font color of text in sections */
+}
+
+main img { /* sets size of the images in the main portion of the page */
     max-height: 200px;
 }
 
-main h2 {
+main h2 { /* sets bottom margin and font size of the headers of the sections in the main portion of the page */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-footer {
+footer { /* sets style rules for the footer of the page */
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* sets font style of text in the footer */
+    text-align: center; /* centers text in footer */
 }
 
-footer h2 {
-    font-size: 20px;
+footer h2 { /* sets style rules for the heading of the footer of the page */
+    font-size: 20px; /* sets font size of the text in the heading of the footer */
 }
